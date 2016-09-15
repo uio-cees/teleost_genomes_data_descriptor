@@ -1,0 +1,13 @@
+# m_matschiner Fri Sep 2 22:56:18 CEST 2016
+
+# This pipeline allows to reproduce results presented in Malmstrøm et al (2016).
+# It uses mitochondrial sequence alignments provided in directory data/mitochondrial
+# to generate a concatenated alignment and runs RAxML (which needs to be installed)
+# for maximum-likelihood phylogenetic inference.
+
+# The input alignments were previously produced with the pipeline described in
+# directory ../ortholog_identification, and should be identical to those that are
+# written to directory ../ortholog_identification/analysis/alignments/mitochondrial/04
+# after running the ortholog identification pipeline.
+
+# To execute this pipeline, cd into directory "scripts" and run the script "start.sh".

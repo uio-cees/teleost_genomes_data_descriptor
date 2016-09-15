@@ -1,0 +1,21 @@
+#  m_matschiner Fri Sep 2 22:28:41 CEST 2016
+
+# This code repository allows to reproduce results presented in Malmstrøm et al. (2016). 
+# The pipeline described here extracts, aligns, and filters sequences for mitochondrial markers
+# from all new unitig assemblies as well previously published genome sequences available from ENSEMBL.
+
+# To run this pipeline, cd into directory "scripts" and run the script "start.sh". However, the
+# required input data is not included in this code repository due to space limitations, and will
+# first need to be added before the pipeline can be executed. Specifically, files need to be added
+# to two directories:
+# data/subjects/full/
+# data/subjects/mitochondrial/
+# Unitig assembly data available at http://datadryad.org/handle/10255/dryad.120269 (all files ending
+# in *.utg.fasta.gz) should be downloaded, copied to directory data/subjects/full/, and decompressed.
+# Make sure that the file names of the unitig assembly fasta files then match the names listed in
+# file data/subjects/full/files_that_should_be_placed_here.txt
+# In addition, sequence data for genome sequences from ENSEMBL should be downloaded and placed in the
+# directory data/subjects/mitochondrial/. These fasta files can be reduced to contain only the mito-
+# chondrial genome sequences of each species. Note that we used sequences from the ENSEMBL version 78,
+# and that all files should be names as specified in file 
+# data/subjects/mitochondrial/files_that_should_be_placed_here.txt

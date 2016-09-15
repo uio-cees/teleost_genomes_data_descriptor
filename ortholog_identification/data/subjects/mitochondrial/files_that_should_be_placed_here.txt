@@ -1,0 +1,10 @@
+Astmex.fasta
+Danrer.fasta
+Gadmor.fasta
+Gasacu.fasta
+Orenil.fasta
+Orylat.fasta
+Takrub.fasta
+Tetnig.fasta
+Xipmac.fasta
+Salsal.fasta
